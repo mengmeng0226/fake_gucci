@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "微软雅黑", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+}
+
+dd, div, dl, dt, i, li, p, span, ul {
+  word-break: normal;
+}
+
+p, span {
+  color: #e5dfd9;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body, html {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #363d4c;
+  background-color: #ffffff;
+  font-size: 14px;
+  min-width: 320px;
+  font-family: "Helvetica Neue", "微软雅黑", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #000;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  position: static;
+  z-index: 1;
+  padding: 27px 0 16px;
+  transition: height 0.2s ease-out, opacity 0.2s ease-out, padding 0.2s ease-out;
+  text-align: center;
+  opacity: 1;
+  background-color: black;
+  font-size: 12px;
+}
+.header > img {
+  cursor: pointer;
+  width: 148px;
+  height: 24.08px;
+  margin-left: 150px;
+}
+.header > p {
+  display: inline-block;
+  position: absolute;
+  left: 40px;
+}
+.header a {
+  float: right;
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+body > .footer {
+  width: 100%;
+}
+body > .footer > .container {
+  width: 1215px;
+  padding-top: 80px;
+  margin: 0 auto;
+  min-height: 400px;
+}
+body > .footer > .container ul {
+  float: left;
+}
+body > .footer > .container ul li {
+  display: inline-block;
+  font-family: FuturaLT-Book, GucciChinese;
+  font-size: 11px;
+  color: white;
+  letter-spacing: 0;
+  vertical-align: middle;
+  margin-bottom: 13px;
+}
+body > .footer > .container ul li h2 {
+  color: #e5dfd9;
+  margin-bottom: 28px;
+}
+
+body .content {
+  min-height: 300px;
+  width: 100%;
+  background-color: #e7e7e7;
+  margin: 0 auto;
+  padding: 40px;
+}
+body .content > h2 {
+  width: 100%;
+  height: 36px;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  font-weight: normal;
+}
+body .content .box {
+  margin: 0 auto;
+  width: 770px;
+  height: 426px;
+  padding: 50px;
+}
+body .content .box form {
+  text-align: center;
+}
+body .content .box form label {
+  font-family: FuturaLT-Light, GucciChinese;
+  font-size: 12px;
+  color: #1b1b1b;
+  letter-spacing: 0.5px;
+  margin: 20px;
+  display: block;
+}
+body .content .box form input {
+  width: 300px;
+  height: 37px;
+  padding: 12px 14px 11px;
+  border-radius: 0;
+}
+body .content .box form button {
+  margin: 40px auto;
+  width: 300px;
+  height: 37px;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+  background: #1b1b1b;
+  border: 2px solid #1b1b1b;
+  color: #e5dfd9;
+}
+
+/*# sourceMappingURL=login.css.map */
